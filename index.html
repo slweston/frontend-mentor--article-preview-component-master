@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" sizes="32x32" href="src/images/favicon-32x32.png">
+	<title>Frontend Mentor | Article preview component</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+	<link rel="stylesheet" href="src/css/main.min.css">
+	<script defer src="src/js/main.js"></script>
+</head>
+<body>
+
+	<main>
+		<div class="container">
+			<div class="inner-container">
+				<div class="main-grid expanded-social-media">
+					<div class="hero-image-content">
+						<img src="src/images/drawers.jpg" alt="hero image" aria-hidden="true">
+					</div>
+					<div class="text-content">
+						<h1>
+							Shift the overall look and feel by adding these wonderful
+							touches to furniture in your home
+						</h1>
+						<p>
+							Ever been in a room and felt like something was missing? Perhaps
+							it felt slightly bare and uninviting. I’ve got some simple tips
+							to help you make any room feel complete.
+						</p>
+						<div class="author-card">
+							<img class="author-card__img" src="src/images/avatar-michelle.jpg" alt="michelle"
+								aria-hidden="true">
+							<div>
+								<div class="author-card__name" aria-label="author name">Michelle Appleton</div>
+								<div class="author-card__date" aria-label="article date">28 Jun 2020</div>
+							</div>
+							<button class="author-card__share-button" alt="share" aria-label="share"
+								aria-controls="social-media">
+								<!-- <img src="src/images/icon-share.svg" alt="share" aria-hidden="true"> -->
+								<div class="author-card__share-button__share-icon"></div>
+							</button>
+						</div>
+					</div>
+
+					<div class="social-media" id="social-media">
+						<span>Share</span>
+						<div class="social-media__links">
+							<a class="social-media__link" href="#!" title="facebook" aria-label="facebook"><img
+									src="src/images/icon-facebook.svg" alt="facebook"></a>
+							<a class="social-media__link" href="#!" title="twitter" aria-label="twitter"><img
+									src="src/images/icon-twitter.svg" alt="facebook"></a>
+							<a class="social-media__link" href="#!" title="pinterest" aria-label="pinterest"><img
+									src="src/images/icon-pinterest.svg" alt="facebook"></a>
+						</div>
+
+						<button class="social-media__share-button" alt="share" aria-label="share"
+							aria-controls="social-media">
+							<!-- <img src="src/images/icon-share.svg" alt="share" aria-hidden="true"> -->
+							<div class="social-media__share-button__share-icon"></div>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="attribution">
+		<span>
+			Challenge by <a href="https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT"
+				target="_blank">Frontend Mentor</a>.
+			Coded by <a href="https://github.com/slweston" target="_blank">Scott Weston</a>.
+		</span>
+	</footer>
+</body>
+</html>
